@@ -1,0 +1,53 @@
+# use glob syntax
+syntax: glob
+
+[Cc]ache/**	# Myst cache folder
+[Pp]ublic/**	# Myst cyclopedia & user files
+_[Oo]ld*/**	# Old content
+forum/cache/**  # Forum cache
+forum/files/**  # Forum files
+forum/store/**  # Forum storage files
+forum/images/avatars/upload/**  # Forum user avatar folder
+forum/docs/**  # Forum install/upgrade docs
+forum/install/**  # Forum install/upgrade files
+
+[Mm]igrations/**
+
+*.mwb.bak	# MySQL Workbench .BAK file
+*.dbmdl		# VS2010 Database Projects cache file
+*.obj
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.scc
+*.DotSettings
+[Bb]in
+[Dd]ebug*/**
+obj/
+.vs/
+[Rr]elease*/**
+_ReSharper*/**
+NDependOut/**
+packages/**
+[Tt]humbs.db
+[Tt]est[Rr]esult*
+[Bb]uild[Ll]og.*
+*.[Pp]ublish.xml
+*.resharper
+*.ncrunch*
+*.ndproj
